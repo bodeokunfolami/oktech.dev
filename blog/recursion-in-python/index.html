@@ -4,7 +4,7 @@
         <!-- Google tag (gtag.js) -->
         <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=G-805TK7MTRE"
+            src="https://www.googletagmanager.com/gtag/js?id=G-NF88GYBXS7"
         ></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -127,9 +127,9 @@
 <article class="article">
   <div class="content">
     <p>Recursion is a programming strategy used for breaking complex computation problems into small sub-problems that can be solved. The recursion problem is self-referential. The strategy is deployed when a function makes copies of itself to solve sub-problems of a computation. Every recursive function has a <em>base case</em> that allows the recursion to end peacefully.</p>
-<p><img alt="img" class="my-md-4 img-fluid my-3 shadow center" src="/images/recursion.png"/></p>
+<p><img alt="img" class="my-md-4 center my-3 shadow img-fluid" src="/images/recursion.png"/></p>
 <p>The recursive call will keep creating copies of <code>func()</code> which consequently will keep printing "recurse" for eternity 😀, no am just kidding till your computer runs out of memory. But python has a maximum recursion dept that the recursion call will be terminated once the threshold has been reached.</p>
-<p><img alt="img-recursion-error" class="my-md-4 img-fluid my-3 shadow center" src="/images/recursion-error.png"/></p>
+<p><img alt="img-recursion-error" class="my-md-4 center my-3 shadow img-fluid" src="/images/recursion-error.png"/></p>
 <p>You can get the limit using the sys module's <code>getrecursionlimit()</code> function.</p>
 <pre><code class="language-python">import sys
 sys.getrecursionlimit() # 1000
@@ -160,9 +160,9 @@ sys.getrecursionlimit() # 1000
 palindrome('racecar') # True
 </code></pre>
 <p>We have two base cases for when the word is a palindrome and when it is not. The recursion works by removing the first and last characters and then checking if the current first and last characters are the same until there is only one character, then the function will return True or if the characters don't match it will return False.</p>
-<p><img alt="img-palindrome" class="my-md-4 img-fluid my-3 shadow center" src="/images/palindrome.png"/></p>
+<p><img alt="img-palindrome" class="my-md-4 center my-3 shadow img-fluid" src="/images/palindrome.png"/></p>
 <p>Another common recursion problem is factorial. A factorial is the product of all numbers less than or equal to the given number.</p>
-<p><img alt="img-factorial" class="my-md-4 img-fluid my-3 shadow center" src="/images/factorial.png"/></p>
+<p><img alt="img-factorial" class="my-md-4 center my-3 shadow img-fluid" src="/images/factorial.png"/></p>
 <p>We can use recursion to solve for the factorial of any given number in python.</p>
 <pre><code class="language-python">def factorial(n):
   if n == 0:
