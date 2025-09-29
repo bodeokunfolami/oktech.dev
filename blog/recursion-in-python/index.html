@@ -13,7 +13,7 @@
             }
             gtag("js", new Date());
 
-            gtag("config", "G-805TK7MTRE");
+            gtag("config", "G-NF88GYBXS7");
         </script>
 
         <!-- Required meta tags -->
@@ -24,41 +24,44 @@
         />
 
         <title> Recursion In Python | OkTech </title>
-        <link rel="canonical" href="http://127.0.0.1:8000/recursion-in-python/index.html" />
+        <link rel="canonical" href="https://oktech.dev/recursion-in-python/index.html" />
 
         <link
             rel="apple-touch-icon"
-            href="http://127.0.0.1:8000/apple-touch-icon.png"
+            href="https://oktech.dev/apple-touch-icon.png"
             sizes="180x180"
         />
         <link
             rel="icon"
             type="image/png"
-            href="http://127.0.0.1:8000/theme/favicon-32x32.png"
+            href="https://oktech.dev/theme/favicon-32x32.png"
             sizes="32x32"
         />
         <link
             rel="icon"
             type="image/png"
-            href="http://127.0.0.1:8000/theme/favicon-16x16.png"
+            href="https://oktech.dev/theme/favicon-16x16.png"
             sizes="16x16"
         />
-        <link rel="manifest" href="http://127.0.0.1:8000/manifest.json" />
+        <link rel="manifest" href="https://oktech.dev/manifest.json" />
         <meta name="theme-color" content="#333333" />
 
-        <link rel="stylesheet" href="http://127.0.0.1:8000/theme/style.css" />
-        <link rel="stylesheet" href="http://127.0.0.1:8000/theme/theme.css" />
-        <link rel="stylesheet" href="http://127.0.0.1:8000/theme/oldstyle.css" />
-   
+        <link rel="stylesheet" href="https://oktech.dev/theme/style.css" />
+        <link rel="stylesheet" href="https://oktech.dev/theme/theme.css" />
+        <link rel="stylesheet" href="https://oktech.dev/theme/oldstyle.css" />
+   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://oktech.dev/feeds/all.atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://oktech.dev/feeds/python.atom.xml">  
 <meta name="description" content="Recursion is a programming strategy used for breaking complex computation problems into small sub-problems that can be solved. The recursion problem is self-referential. The strategy is deployed when a function makes copies of itself to solve sub-problems of a computation. Every recursive function has a base case that allows the …" />
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@bodeokunfolami" />
 <meta name="twitter:creator" content="@bodeokunfolami" />
-<meta property="og:url" content="http://127.0.0.1:8000/recursion-in-python/index.html" />
+<meta property="og:url" content="https://oktech.dev/recursion-in-python/index.html" />
 <meta property="og:title" content="Recursion In Python" />
 <meta property="og:description" content="Recursion is a programming strategy used for breaking complex computation problems into small sub-problems that can be solved. The recursion problem is self-referential. The strategy is deployed when a function makes copies of itself to solve sub-problems of a computation. Every recursive function has a base case that allows the …" />
-<meta property="og:image" content="http://127.0.0.1:8000/theme/ogimage.png" />
+<meta property="og:image" content="https://oktech.dev/theme/ogimage.png" />
 <meta name="twitter:card" content="summary_large_image" />
  
 
@@ -68,10 +71,10 @@
         <nav class="navbar navbar-expand-lg navbar-white bg-white">
             <div class="container">
                 <div class="navbar-brand">
-                    <a href="http://127.0.0.1:8000/" class="text-decoration-none">
+                    <a href="https://oktech.dev/" class="text-decoration-none">
                         <img
                             width="80px"
-                            src="http://127.0.0.1:8000/theme/pythoneer-dev.png"
+                            src="https://oktech.dev/theme/pythoneer-dev.png"
                             alt="OkTech"
                         />
                     </a>
@@ -128,9 +131,9 @@
 <article class="article">
     <div class="content">
         <p>Recursion is a programming strategy used for breaking complex computation problems into small sub-problems that can be solved. The recursion problem is self-referential. The strategy is deployed when a function makes copies of itself to solve sub-problems of a computation. Every recursive function has a <em>base case</em> that allows the recursion to end peacefully.</p>
-<p><img alt="img" class="center shadow my-md-4 my-3 img-fluid" src="http://127.0.0.1:8000/images/recursion.png"/></p>
+<p><img alt="img" class="img-fluid shadow my-md-4 my-3 center" src="https://oktech.dev/images/recursion.png"/></p>
 <p>The recursive call will keep creating copies of <code>func()</code> which consequently will keep printing "recurse" for eternity 😀, no am just kidding till your computer runs out of memory. But python has a maximum recursion dept that the recursion call will be terminated once the threshold has been reached.</p>
-<p><img alt="img-recursion-error" class="center shadow my-md-4 my-3 img-fluid" src="http://127.0.0.1:8000/images/recursion-error.png"/></p>
+<p><img alt="img-recursion-error" class="img-fluid shadow my-md-4 my-3 center" src="https://oktech.dev/images/recursion-error.png"/></p>
 <p>You can get the limit using the sys module's <code>getrecursionlimit()</code> function.</p>
 <pre><code class="language-python">import sys
 sys.getrecursionlimit() # 1000
@@ -141,7 +144,7 @@ sys.getrecursionlimit() # 1000
 <blockquote class="custom-blockquote">
 <p>It is recommended that you do not temper with the recursion limit as the default is more than enough for most of your use cases</p>
 </blockquote>
-<h3 class="my-3 my-md-4">How to Exit A Recursion</h3>
+<h3 class="my-md-4 my-3">How to Exit A Recursion</h3>
 <p>To exit a recursion you must specify a base case that once met the recursion will end.</p>
 <pre><code class="language-python">def func(n=0):
   if n == 5: return # base case
@@ -149,7 +152,7 @@ sys.getrecursionlimit() # 1000
   func(n + 1)
 </code></pre>
 <p>We are using the positional argument <code>n=0</code> to track the recursion calls, once the base case, <code>n == 5</code> has been met, the function will return. Note that the base condition will not be met if you don't increment <code>n</code> by 1 in the recursive call. The recursion will only print 'recurse' five times because of the base case.</p>
-<h3 class="my-3 my-md-4">Using Recursion In Python</h3>
+<h3 class="my-md-4 my-3">Using Recursion In Python</h3>
 <p>Let's check if a word is a palindrome. A palindrome is a word that reads the same backward, for example, racecar.</p>
 <pre><code class="language-python">def palindrome(word):
     last_index = len(word) - 1
@@ -161,9 +164,9 @@ sys.getrecursionlimit() # 1000
 palindrome('racecar') # True
 </code></pre>
 <p>We have two base cases for when the word is a palindrome and when it is not. The recursion works by removing the first and last characters and then checking if the current first and last characters are the same until there is only one character, then the function will return True or if the characters don't match it will return False.</p>
-<p><img alt="img-palindrome" class="center shadow my-md-4 my-3 img-fluid" src="http://127.0.0.1:8000/images/palindrome.png"/></p>
+<p><img alt="img-palindrome" class="img-fluid shadow my-md-4 my-3 center" src="https://oktech.dev/images/palindrome.png"/></p>
 <p>Another common recursion problem is factorial. A factorial is the product of all numbers less than or equal to the given number.</p>
-<p><img alt="img-factorial" class="center shadow my-md-4 my-3 img-fluid" src="http://127.0.0.1:8000/images/factorial.png"/></p>
+<p><img alt="img-factorial" class="img-fluid shadow my-md-4 my-3 center" src="https://oktech.dev/images/factorial.png"/></p>
 <p>We can use recursion to solve for the factorial of any given number in python.</p>
 <pre><code class="language-python">def factorial(n):
   if n == 0:
@@ -184,14 +187,14 @@ Almost any recursive problem can be solved iteratively but recursions are genera
 <ul class="list-unstyled">
     <li class="d-inline">
         <a
-            href="http://127.0.0.1:8000/tag/python.html"
+            href="https://oktech.dev/tag/python.html"
             class="badge text-bg-success text-decoration-none"
             >python</a
         >
     </li>
     <li class="d-inline">
         <a
-            href="http://127.0.0.1:8000/tag/recursion.html"
+            href="https://oktech.dev/tag/recursion.html"
             class="badge text-bg-success text-decoration-none"
             >recursion</a
         >
@@ -204,7 +207,7 @@ Almost any recursive problem can be solved iteratively but recursions are genera
     href="https://twitter.com/intent/tweet?text=Recursion In Python by @bodeokunfolami at https://oktech.dev/recursion-in-python/"
 >
     <img
-        src="http://127.0.0.1:8000/theme/twitter.png"
+        src="https://oktech.dev/theme/twitter.png"
         width="45px"
         alt="share button"
     />
@@ -276,7 +279,7 @@ Almost any recursive problem can be solved iteratively but recursions are genera
 
         <script
             type="text/javascript"
-            src="http://127.0.0.1:8000/theme/main.js"
+            src="https://oktech.dev/theme/main.js"
             crossorigin="anonymous"
         ></script>
     </body>

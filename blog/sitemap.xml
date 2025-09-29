@@ -5,301 +5,301 @@ xmlns:xhtml="http://www.w3.org/1999/xhtml"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://127.0.0.1:8000/</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/archives.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/archives.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/author/bode-okunfolami.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/author/bode-okunfolami.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/author/bode-okunfolami2.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/author/bode-okunfolami2.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/authors.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/authors.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/back-end-development-flask-vs-django/</loc>
+<loc>https://oktech.dev/back-end-development-flask-vs-django/</loc>
 <lastmod>2022-11-25T23:10:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/build-a-password-generator-cli-with-python/</loc>
+<loc>https://oktech.dev/build-a-password-generator-cli-with-python/</loc>
 <lastmod>2022-11-25T20:16:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/categories.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/categories.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/category/mysql.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/category/mysql.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/category/python.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/category/python.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/category/python2.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/category/python2.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/configure-django-and-mysql-database/</loc>
+<loc>https://oktech.dev/configure-django-and-mysql-database/</loc>
 <lastmod>2023-01-17T08:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/database-relationships-explained/</loc>
+<loc>https://oktech.dev/database-relationships-explained/</loc>
 <lastmod>2023-03-20T12:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/django-the-break-down/</loc>
+<loc>https://oktech.dev/django-the-break-down/</loc>
 <lastmod>2023-03-17T00:35:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/higher-order-functions-in-python/</loc>
+<loc>https://oktech.dev/higher-order-functions-in-python/</loc>
 <lastmod>2023-02-21T00:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/how-to-create-a-virtual-environment-in-python/</loc>
+<loc>https://oktech.dev/how-to-create-a-virtual-environment-in-python/</loc>
 <lastmod>2022-12-07T19:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/index2.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/index2.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/installing-mysql-community-server-on-windows-11/</loc>
+<loc>https://oktech.dev/installing-mysql-community-server-on-windows-11/</loc>
 <lastmod>2023-03-30T12:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/object-oriented-programming-in-python-part-2/</loc>
+<loc>https://oktech.dev/object-oriented-programming-in-python-part-2/</loc>
 <lastmod>2022-12-01T19:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/object-oriented-programming-in-python/</loc>
+<loc>https://oktech.dev/object-oriented-programming-in-python/</loc>
 <lastmod>2022-11-26T19:45:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/operators-in-python/</loc>
+<loc>https://oktech.dev/operators-in-python/</loc>
 <lastmod>2022-10-19T23:22:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/pages/about/</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/pages/about/</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/pages/contact/</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/pages/contact/</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/pages/projects/</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/pages/projects/</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/python-string-manipulation/</loc>
+<loc>https://oktech.dev/python-string-manipulation/</loc>
 <lastmod>2022-10-26T15:33:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/recursion-in-python/</loc>
+<loc>https://oktech.dev/recursion-in-python/</loc>
 <lastmod>2023-01-16T23:41:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/setup-windows-11-for-python-development/</loc>
+<loc>https://oktech.dev/setup-windows-11-for-python-development/</loc>
 <lastmod>2022-12-20T16:50:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/cli.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/cli.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/django.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/django.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/flask.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/flask.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/functional-programming.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/functional-programming.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/higher-order-functions.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/higher-order-functions.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/mysql.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/mysql.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/oop.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/oop.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/python.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/python.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/python2.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/python2.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/recursion.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/recursion.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/venv.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/venv.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/virtualenv.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/virtualenv.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/web-development.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/web-development.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tag/windows.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tag/windows.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/tags.html</loc>
-<lastmod>2025-09-29T15:42:15-00:00</lastmod>
+<loc>https://oktech.dev/tags.html</loc>
+<lastmod>2025-09-29T15:54:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://127.0.0.1:8000/understanding-variables-and-data-types-in-python/</loc>
+<loc>https://oktech.dev/understanding-variables-and-data-types-in-python/</loc>
 <lastmod>2022-10-19T23:36:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>

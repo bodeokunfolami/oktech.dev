@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>OkTech - mysql</title><link href="https://oktech.dev/" rel="alternate"></link><link href="https://oktech.dev/feeds/mysql.atom.xml" rel="self"></link><id>https://oktech.dev/</id><updated>2023-03-30T12:00:00+00:00</updated><subtitle>Learn Python programming language</subtitle><entry><title>Installing MySQL Community Server on Windows 11</title><link href="https://oktech.dev/installing-mysql-community-server-on-windows-11/" rel="alternate"></link><published>2023-03-30T12:00:00+00:00</published><updated>2023-03-30T12:00:00+00:00</updated><author><name>Bode Okunfolami</name></author><id>tag:oktech.dev,2023-03-30:/installing-mysql-community-server-on-windows-11/</id><summary type="html">&lt;p&gt;MySQL is a relational database management system (RDBMS). Relational databases are the most widely used databases today. They store data in tables which consist of rows and columns. MySQL is a popular relational database amongst others, and in this article i will show you how to install mysql on windows …&lt;/p&gt;</summary><content type="html">&lt;p&gt;MySQL is a relational database management system (RDBMS). Relational databases are the most widely used databases today. They store data in tables which consist of rows and columns. MySQL is a popular relational database amongst others, and in this article i will show you how to install mysql on windows 11. There are two ways of installing mysql, with windows msi installer or downloading the zip archive files and setting it up on your system. I would recommend the second method, So you will know how to configure mysql on your local system.&lt;/p&gt;
+&lt;h3 class="my-md-4 my-3"&gt;Downloading MySQL&lt;/h3&gt;
+&lt;p&gt;Download mysql zip files from &lt;a href="https://dev.mysql.com/downloads/mysql" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="img-msql-download-1" class="img-fluid shadow my-md-4 my-3 center" src="https://oktech.dev/images/mysql-download-1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;Once downloaded extract the archive file to this location&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-text"&gt;C:\mysql
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The mysql files extracted does not have a data folder. The data folder is where mysql stores database information. To create a data folder run the command below.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-plaintext"&gt;"C:\mysql\bin\mysqld" --initialize
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The command above will create the data directory in the default location &lt;code&gt;C:\mysql\data&lt;/code&gt; and initialize the system database.&lt;/p&gt;
+&lt;h3 class="my-md-4 my-3"&gt;Starting The Server&lt;/h3&gt;
+&lt;p&gt;You can start the mysql server in the terminal console using the command&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-plaintext"&gt;"C:\mysql\bin\mysqld" --console
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will start the server and you can open a new terminal and connect to mysql client. MySQL comes with a default user root that does not have a password. You can connect to mysql using the default user account.&lt;/p&gt;
+&lt;h3 class="my-md-4 my-3"&gt;Add MySQL to System Path&lt;/h3&gt;
+&lt;p&gt;In order to connect to mysql effectively, you must add mysql to system path. If you do not have mysql in your system path, You will always have to connect to mysql from mysql bin folder&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-plaintext"&gt;"C:\mysql\bin\mysql" -u root
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To add mysql to system path:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy the location of the mysql bin folder &lt;code&gt;c:\mysql\bin&lt;/code&gt; to clipboard&lt;/li&gt;
+&lt;li&gt;Search for "environment variables" in windows search bar and open it&lt;/li&gt;
+&lt;li&gt;Click on the environment variables button&lt;/li&gt;
+&lt;li&gt;Select path under the system panel.&lt;/li&gt;
+&lt;li&gt;Click on edit.&lt;/li&gt;
+&lt;li&gt;Click new and paste the mysql bin folder location&lt;/li&gt;
+&lt;li&gt;Select apply and save&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For the best experience, it is better to install mysql server as a service, that way the mysql server will always run in the background. To install the server as a service run the command.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-text"&gt;C:&amp;gt; "C:\mysql\bin\mysqld" --install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This adds mysql service to windows services.&lt;/p&gt;</content><category term="mysql"></category><category term="mysql"></category></entry></feed>
