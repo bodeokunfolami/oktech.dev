@@ -3,11 +3,11 @@ AUTHOR = 'Bode Okunfolami'
 
 SITENAME = 'OkTech'
 
-SITEURL = ''
+SITEURL = 'http://127.0.0.1:8000'
 
 SITEIMAGE = 'theme/pythoneer-dev.png'
 
-SITESUBTITLE = 'Learn computer programming with simplicity and clarity'
+SITESUBTITLE = 'Learn Python programming language'
 
 HIDE_AUTHORS = True
 

@@ -24,41 +24,41 @@
         />
 
         <title> Back-end Development: Flask vs Django | OkTech </title>
-        <link rel="canonical" href="/back-end-development-flask-vs-django/index.html" />
+        <link rel="canonical" href="http://127.0.0.1:8000/back-end-development-flask-vs-django/index.html" />
 
         <link
             rel="apple-touch-icon"
-            href="/apple-touch-icon.png"
+            href="http://127.0.0.1:8000/apple-touch-icon.png"
             sizes="180x180"
         />
         <link
             rel="icon"
             type="image/png"
-            href="/theme/favicon-32x32.png"
+            href="http://127.0.0.1:8000/theme/favicon-32x32.png"
             sizes="32x32"
         />
         <link
             rel="icon"
             type="image/png"
-            href="/theme/favicon-16x16.png"
+            href="http://127.0.0.1:8000/theme/favicon-16x16.png"
             sizes="16x16"
         />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="http://127.0.0.1:8000/manifest.json" />
         <meta name="theme-color" content="#333333" />
 
-        <link rel="stylesheet" href="/theme/style.css" />
-        <link rel="stylesheet" href="/theme/theme.css" />
-        <link rel="stylesheet" href="/theme/oldstyle.css" />
+        <link rel="stylesheet" href="http://127.0.0.1:8000/theme/style.css" />
+        <link rel="stylesheet" href="http://127.0.0.1:8000/theme/theme.css" />
+        <link rel="stylesheet" href="http://127.0.0.1:8000/theme/oldstyle.css" />
    
 <meta name="description" content="What is a server? A server is a computer in any location on the planet that provides computational logic and operations remotely to multiple devices. What is back-end development? This is the process of developing software handles data of a web application. Without the back-end a website is just static …" />
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@bodeokunfolami" />
 <meta name="twitter:creator" content="@bodeokunfolami" />
-<meta property="og:url" content="/back-end-development-flask-vs-django/index.html" />
+<meta property="og:url" content="http://127.0.0.1:8000/back-end-development-flask-vs-django/index.html" />
 <meta property="og:title" content="Back-end Development: Flask vs Django" />
 <meta property="og:description" content="What is a server? A server is a computer in any location on the planet that provides computational logic and operations remotely to multiple devices. What is back-end development? This is the process of developing software handles data of a web application. Without the back-end a website is just static …" />
-<meta property="og:image" content="/theme/ogimage.png" />
+<meta property="og:image" content="http://127.0.0.1:8000/theme/ogimage.png" />
 <meta name="twitter:card" content="summary_large_image" />
  
 
@@ -68,10 +68,10 @@
         <nav class="navbar navbar-expand-lg navbar-white bg-white">
             <div class="container">
                 <div class="navbar-brand">
-                    <a href="/" class="text-decoration-none">
+                    <a href="http://127.0.0.1:8000/" class="text-decoration-none">
                         <img
                             width="80px"
-                            src="/theme/pythoneer-dev.png"
+                            src="http://127.0.0.1:8000/theme/pythoneer-dev.png"
                             alt="OkTech"
                         />
                     </a>
@@ -127,15 +127,15 @@
                 <div class="mb-md-4 mb-3"></div>
 <article class="article">
     <div class="content">
-        <h3 class="my-md-4 my-3">What is a server?</h3>
+        <h3 class="my-3 my-md-4">What is a server?</h3>
 <p>A server is a computer in any location on the planet that provides computational logic and operations remotely to multiple devices.</p>
-<h3 class="my-md-4 my-3">What is back-end development?</h3>
+<h3 class="my-3 my-md-4">What is back-end development?</h3>
 <p>This is the process of developing software handles data of a web application. Without the back-end a website is just static HTML and CSS. Think of a website back-end as instructions or code that determines how data is rendered in the browser in the form of markup.The back-end contains the logic for processing data gotten interacting with website. Back-end development is also known as server-side programming. The back-end of a website is the reason why you can make a post on facebook, order an item from an e-commerce website etc. The back-end interacts with a database to store data from a website.</p>
 <p>There are different server-side programming languages such as Python, Javascript (Nodejs), Ruby, Go etc. These languages can be used to build web application. Python is one of the best languages for web development, because of its simple syntax that almost resembles plain english. Despite it's simplicity it is a very powerful language.</p>
-<h3 class="my-md-4 my-3">What is a Web Framework?</h3>
+<h3 class="my-3 my-md-4">What is a Web Framework?</h3>
 <p>A web framework is a software that makes building websites easy. Python has many web frameworks but in this tutorial we will be looking at two of the most popular.</p>
 <p>There are two main frameworks used in python for building web applications. The first is Django and the second Flask. Django is a robust framework with many features while flask can be considered as a micro framework. Django has a pre-determined structure and pattern of writing web apps and flask makes it very simple to get a web application up and running.</p>
-<h3 class="my-md-4 my-3">The Django Web Framework</h3>
+<h3 class="my-3 my-md-4">The Django Web Framework</h3>
 <p>With django you can build applications that are robust and secure, it's structure makes it easy to build scalable web apps. Django is what we call a full-stack framework, it is structured into the Model-View-Template architecture. Models determines data structure. The model through the object relation mapper (ORM) let you query database tables in python instead of raw SQL. The view handle the logic of the web application like payment processing, user login/logout etc. before the html is generated with the templates and sent to the client side. Django makes it very easy to work with html forms via django forms. Django comes with is own template engine, django templates used for generating web pages.</p>
 <p>To start a new django project</p>
 <ol>
@@ -220,7 +220,7 @@ from django.http import HttpResponse
 def index_view(request):
     return HttpResponse('Hello, Django') # shows 'Hello, Django' in browser
 </code></pre>
-<h3 class="my-md-4 my-3">Flask Web Framework</h3>
+<h3 class="my-3 my-md-4">Flask Web Framework</h3>
 <p>Flask is a micro framework which has a small and easy to extend core. It is easy to learn and use and it is "beginner-friendly" because it does not have boilerplate code or dependencies like other frameworks. Flask uses jinja2 for rendering templates. Flask was initially created as an April Fool's joke, but it became very popular quickly and it is still actively maintained today. We can quickly create a flask web application in a single python file 'app.py'</p>
 <blockquote class="custom-blockquote">
 <p>Flask does connect to databases by default you have to install packages for connecting to a database server.</p>
@@ -238,34 +238,34 @@ if __name__ == '__main__':
     app.run(debug=True) # run the development server
 </code></pre>
 <p>With just a few lines of code we have a flask app. This feels a lot easier than django and its boilerplate code. In flask there is no pre defined project structure, you can structure your project how you want. It is a framework that is extremely flexible.</p>
-<h3 class="my-md-4 my-3">Conclusion</h3>
+<h3 class="my-3 my-md-4">Conclusion</h3>
 <p>Django and Flask are both excellent choices for your next project, but if you want to build a small project thats does not require much or you just want to have the flexibility of building web apps however you like then flask might be the best option. On the other hand, Django's learning curve may be steep but once learnt the possibilities are endless because of its rich library of tools that help build large web application in a short period of time.</p>     </div>
 </article>
 <ul class="list-unstyled">
     <li class="d-inline">
         <a
-            href="/tag/python.html"
+            href="http://127.0.0.1:8000/tag/python.html"
             class="badge text-bg-success text-decoration-none"
             >python</a
         >
     </li>
     <li class="d-inline">
         <a
-            href="/tag/web-development.html"
+            href="http://127.0.0.1:8000/tag/web-development.html"
             class="badge text-bg-success text-decoration-none"
             >web development</a
         >
     </li>
     <li class="d-inline">
         <a
-            href="/tag/flask.html"
+            href="http://127.0.0.1:8000/tag/flask.html"
             class="badge text-bg-success text-decoration-none"
             >flask</a
         >
     </li>
     <li class="d-inline">
         <a
-            href="/tag/django.html"
+            href="http://127.0.0.1:8000/tag/django.html"
             class="badge text-bg-success text-decoration-none"
             >django</a
         >
@@ -278,7 +278,7 @@ if __name__ == '__main__':
     href="https://twitter.com/intent/tweet?text=Back-end Development: Flask vs Django by @bodeokunfolami at https://oktech.dev/back-end-development-flask-vs-django/"
 >
     <img
-        src="/theme/twitter.png"
+        src="http://127.0.0.1:8000/theme/twitter.png"
         width="45px"
         alt="share button"
     />
@@ -350,7 +350,7 @@ if __name__ == '__main__':
 
         <script
             type="text/javascript"
-            src="/theme/main.js"
+            src="http://127.0.0.1:8000/theme/main.js"
             crossorigin="anonymous"
         ></script>
     </body>
